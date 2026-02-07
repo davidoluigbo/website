@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="David Oluigbo - AI/ML Researcher & Healthcare Innovator. Portfolio showcasing research in medical imaging, neuroscience, and applied digital health.">
+    <title>David Oluigbo | Portfolio & CV</title>
+    
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Source+Sans+Pro:wght@300;400;600&display=swap" rel="stylesheet">
+    
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/variables.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+    <!-- Theme Toggle -->
+    <button class="theme-toggle" onclick="themeToggle.toggle()" aria-label="Toggle between light and dark mode" aria-pressed="false">
+        <i class="fas fa-moon" id="theme-icon" aria-hidden="true"></i>
+        <span id="theme-text">Dark</span>
+    </button>
+
+    <!-- Header -->
+    <header>
+        <div class="particles" id="particles" aria-hidden="true"></div>
+        
+        <div class="header-content">
+            <div class="headshot-container">
+                <img src="images/headshot.png" alt="David Oluigbo professional headshot" class="headshot">
+            </div>
+
+            <div class="header-text">
+                <h1>David Oluigbo</h1>
+                <p class="tagline">
+                    <span class="typing-text" id="typed-text" aria-live="polite"></span>
+                </p>
+
+                <nav class="social-links" aria-label="Social media links">
+                    <a href="https://www.linkedin.com/in/david-oluigbo-27103722a/" target="_blank" rel="noopener noreferrer" class="social-link">
+                        <i class="fa-brands fa-linkedin" aria-hidden="true"></i>LinkedIn
+                    </a>
+                    <a href="https://github.com/davidioluigbo" target="_blank" rel="noopener noreferrer" class="social-link">
+                        <i class="fa-brands fa-github" aria-hidden="true"></i>GitHub
+                    </a>
+                    <a href="mailto:david.oluigbo@example.com" class="social-link">
+                        <i class="fa-solid fa-envelope" aria-hidden="true"></i>Email
+                    </a>
+                    <a href="https://scholar.google.com/citations?user=vS5mWNwAAAAJ&hl=en" target="_blank" rel="noopener noreferrer" class="social-link">
+                        <i class="fa-solid fa-graduation-cap" aria-hidden="true"></i>Scholar
+                    </a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        <!-- About Me Section -->
+        <section class="section" id="about">
+            <h2>About Me</h2>
+            <div class="about-grid">
+                <article class="about-card">
+                    <i class="fas fa-brain" aria-hidden="true"></i>
+                    <h3>Research Focus</h3>
+                    <p>Bridging AI and healthcare to develop intelligent diagnostic systems and advance medical imaging</p>
+                </article>
+                <article class="about-card">
+                    <i class="fas fa-lightbulb" aria-hidden="true"></i>
+                    <h3>Philosophy</h3>
+                    <p>Committed to making AI accessible and beneficial for improving patient outcomes and clinical decision-making</p>
+                </article>
+                <article class="about-card">
+                    <i class="fas fa-graduation-cap" aria-hidden="true"></i>
+                    <h3>Current Journey</h3>
+                    <p>Pursuing expertise in applied digital health at Oxford to translate research into real-world healthcare solutions</p>
+                </article>
+                <article class="about-card">
+                    <i class="fas fa-music" aria-hidden="true"></i>
+                    <h3>Beyond the Lab</h3>
+                    <p>When not in research mode, you might find me DJing as DJ Chidi or out for a run</p>
+                </article>
+            </div>
+        </section>
+
+        <!-- Education Timeline -->
+        <section class="section" id="education">
+            <h2>Education</h2>
+            <div class="timeline">
+                <!-- Harvard Medical School -->
+                <article class="timeline-item">
+                    <div class="timeline-marker" aria-hidden="true"></div>
+                    <div class="timeline-content">
+                        <h3>MD Candidate <span class="timeline-period">2027 – 2031</span></h3>
+                        <p class="institution">Harvard Medical School</p>
+                        <div class="timeline-logo">
+                            <img src="images/harvard_med_school.jpg" alt="Harvard Medical School logo">
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Oxford -->
+                <article class="timeline-item">
+                    <div class="timeline-marker" aria-hidden="true"></div>
+                    <div class="timeline-content">
+                        <h3>
+                            MSc in Applied Digital Health
+                            <button class="info-btn" aria-label="More information about MSc in Applied Digital Health" aria-expanded="false">i</button>
+                            <span class="timeline-period">Oct 2025 – May 2026</span>
+                        </h3>
+                        <div class="info-box" role="tooltip">
+                            <p>The MSc in Applied Digital Health is a taught, full-time course combining clinical, social, and technical perspectives to explore digital health tools, AI, diagnostics, ethics, and implementation in healthcare.</p>
+                            <p>Core modules:</p>
+                            <ul>
+                                <li>Foundations of Digital Health</li>
+                                <li>Harnessing Big Data for Clinical Decision Support</li>
+                                <li>AI for Efficient Healthcare Systems</li>
+                                <li>Remote Monitoring and Digital Diagnostics</li>
+                                <li>Supporting Health Behaviour Change using Digital Tools</li>
+                                <li>Digital Transformation of Primary Care</li>
+                                <li>Economics of Digital Health</li>
+                                <li>User Focused Design and the Lifecycle of Digital Health Innovation</li>
+                            </ul>
+                        </div>
+                        <p class="institution">University of Oxford</p>
+                        <div class="timeline-logo">
+                            <img src="images/oxford.png" alt="University of Oxford logo">
+                        </div>
+                    </div>
+                </article>
+
+                <!-- MIT -->
+                <article class="timeline-item">
+                    <div class="timeline-marker" aria-hidden="true"></div>
+                    <div class="timeline-content">
+                        <h3>
+                            BSc in Artificial Intelligence and Decision Making
+                            <button class="info-btn" aria-label="More information about BSc in AI and Decision Making" aria-expanded="false">i</button>
+                            <span class="timeline-period">Sep 2021 – May 2025</span>
+                        </h3>
+                        <div class="info-box" role="tooltip">
+                            <p>This major teaches students to develop techniques for the analysis and synthesis of systems that interact with an external world via perception, communication, and action, and that learn, make decisions and adapt in a changing environment.</p>
+                            <p>It integrates disciplines typically taught in different departments, including electrical engineering, computer science, statistics, operations research, and brain and cognitive science.</p>
+                        </div>
+                        <p class="institution">Massachusetts Institute of Technology</p>
+                        <div class="timeline-logo">
+                            <img src="images/mit.png" alt="MIT logo">
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- Professional Experience Timeline -->
+        <section class="section" id="experience">
+            <h2>Professional Experience</h2>
+            <div class="timeline">
+                <!-- Elipsa -->
+                <article class="timeline-item">
+                    <div class="timeline-marker" aria-hidden="true"></div>
+                    <div class="timeline-content">
+                        <h3>AI Intern <span class="timeline-period">Summer 2025</span></h3>
+                        <p class="institution">Elipsa</p>
+                        <ul>
+                            <li>Developed an AI agent using the Model Context Protocol (MCP) to interface with multiple tools and answer questions about IoT sensor data from commercial buildings</li>
+                        </ul>
+                    </div>
+                </article>
+
+                <!-- NIH -->
+                <article class="timeline-item">
+                    <div class="timeline-marker" aria-hidden="true"></div>
+                    <div class="timeline-content">
+                        <h3>Machine Learning Intern <span class="timeline-period">Summer 2023</span></h3>
+                        <p class="institution">NIH Clinical Center</p>
+                        <ul>
+                            <li>Developed, trained, and evaluated a convolutional neural network that detected pheochromocytomas and paragangliomas in CT scans with 64.1% recall and 70.0% precision</li>
+                            <li>Authored two peer-reviewed publications</li>
+                            <li>Presenting findings as oral presentation at SPIE Medical Imaging Conference 2024</li>
+                        </ul>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- Publication Dashboard -->
+        <section class="section" id="publications">
+            <h2>Publications</h2>
+            
+            <div class="pub-dashboard">
+                <div class="pub-stats">
+                    <div class="stat-card">
+                        <div class="stat-number">7</div>
+                        <div class="stat-label">Total Publications</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">4</div>
+                        <div class="stat-label">Research Areas</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">2024</div>
+                        <div class="stat-label">Most Active Year</div>
+                    </div>
+                </div>
+
+                <div class="pub-filters">
+                    <button class="filter-btn active" data-category="all">All</button>
+                    <button class="filter-btn" data-category="medical-imaging">Medical Imaging</button>
+                    <button class="filter-btn" data-category="neuroscience">Neuroscience</button>
+                    <button class="filter-btn" data-category="clinical">Clinical</button>
+                </div>
+            </div>
+
+            <div class="publications-grid" id="publications-grid">
+                <!-- Publications will be loaded from data -->
+            </div>
+        </section>
+
+        <!-- Technical Skills -->
+        <section class="section" id="skills">
+            <h2>Technical Skills</h2>
+            <div class="skills-grid" id="skills-grid">
+                <!-- Skills will be loaded from data -->
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="current-year">2026</span> David Oluigbo. All rights reserved.</p>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/data.js"></script>
+    <script src="js/theme.js"></script>
+    <script src="js/animations.js"></script>
+    <script src="js/publications.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
